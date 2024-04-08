@@ -1,0 +1,203 @@
+:root{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    --background-color: #cccccc70;
+    --border-radius: 7px 0 7px 0;
+    scroll-behavior: smooth;
+}
+/*------------------Fundo----------------------*/
+body{
+    
+}
+/*------------------Fundo----------------------*/
+
+/*----------------header--------------------*/
+.container{
+    background-color: black;
+    color: white;
+    position: sticky;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wrappercontainer-fixed{
+    position: sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.content_2 img{
+    height: 10rem;
+}
+
+.content_2 p{
+    color: red;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content_5{
+    display: block;
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.content_5 a{
+    color: red;
+    background-color: transparent;
+    padding: 1.5rem;
+    border: 1px solid red;
+    border-radius: 7px 0 7px 0;
+    text-decoration: none;
+}
+
+.content_5 a:hover{
+    color: white;
+    border: 1px solid red;
+}
+
+a:hover{
+    background-color: #cccccc70;                                                                                                                             ;
+}
+/*----------------header--------------------*/
+
+/*----------------banner--------------------*/
+.hero_banner_1{
+    height: 81rem;
+    background-color: var(--background-color);
+}
+
+.hero_banner_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*---------------animação-img----------------- */
+.hero_banner_2 img{
+    margin-right: 10rem;
+    padding: 0;
+    /* background-color: orange; */
+    height: 59rem;
+    transition-property: hero_banner_2 img;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+    /* transition-delay: .2s; */
+}
+
+.hero_banner_2 img:hover{
+    height: 61rem;
+    
+}
+
+/*---------------animação-img----------------- */
+
+.hero_banner_3 h1{
+    font-size:6.6rem;
+    background-color: black;
+    color: white;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-weight: bold;
+    padding: 5rem;
+    margin-bottom: 15rem;
+    border-radius: 5rem 0 5rem 0;
+}
+
+.hero_banner_3 a{
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 2rem 0 2rem 0;
+    margin-left: 5rem;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+
+
+a:hover{
+    background-color: var(--background-color);
+    border: 1px solid black;
+    color: black;
+
+}
+.modo-hero-x{
+    color: red;
+    font-size: 10rem;
+    
+}
+
+/*----------------banner--------------------*/
+
+/*----------------prints-------------------*/
+
+.title_2{
+    margin-top: 10rem;
+    font-size: 10rem;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero_banner_prints{
+    background-color:black;
+    height: 92.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_banner_prints_4 img{
+    width: 100rem;
+}
+
+.hero_banner_prints_2{
+    margin: auto;
+    overflow-y: scroll;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    border-radius: 5rem 0 5rem 0;
+    box-shadow: -10px 10px 25px red;
+}
+
+.hero_banner_prints_4{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_banner_memes{
+    background-color: var(--background-color);
+    height: 92.5rem;
+}
+/*----------------prints-------------------*/
+
+/*----------------memes-------------------*/
+.color_banner{
+    background-color: var(--background-color);
+}
+
+.prints_memes img{
+    width: 100rem;
+}
+/*----------------prints-------------------*/
+
+/*----------------footer-------------------*/
+.footer_higor{
+    background-color: black;
+    padding: 5rem;
+}
+
+.footer_higor p{
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+}
+/*----------------footer-------------------*/
